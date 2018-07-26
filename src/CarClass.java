@@ -19,7 +19,7 @@ public class CarClass extends VehicleClass {
 
     @Override
     public String accelerate() {
-        return "The car is accelerating at " + super.getSpeed() + " mph ...";
+        return "The car " + super.getColor() +  " is accelerating at " + super.getSpeed() + " mph ...";
     }
 
     @Override

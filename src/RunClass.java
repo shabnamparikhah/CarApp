@@ -2,6 +2,7 @@ public class RunClass {
     public static void main(String[] args) {
 
         VehicleClass vehicle = new VehicleClass();
+        vehicle.setColor("Red");
         output(vehicle.start());
         vehicle.setSpeed(20);
 
@@ -9,6 +10,7 @@ public class RunClass {
         output(vehicle.stop());
 
         CarClass car1 = new CarClass();
+        car1.setColor("Blue");
         car1.setMake("Volvo");
         car1.setModel("----");
         car1.setYear(2018);
